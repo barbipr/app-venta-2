@@ -1,0 +1,66 @@
+body, html{
+    background-image: url(../imagenes/istockphoto-666832316-170667a-transformed\ \(1\).jpeg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.3em;
+    line-height: 1.6;
+}
+
+.titulo{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.subtitulo{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+.oracion{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 150%;
+}
+
+.container{
+    width:330px;
+    max-width: 1700px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(red, green, blue, alpha);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+

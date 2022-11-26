@@ -1,0 +1,41 @@
+body{
+    background-image: url(./imagenes/istockphoto-666832316-170667a-transformed\ \(1\).jpeg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+.titulo{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+}
+
+.subtitulo{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+.boton{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(252, 237, 72);
+    border-radius: .5em;
+    cursor: pointer;
+    transition: background-color 1s;
+    background-position: center center;
+
+}
+
+.boton:hover{
+    background-color: azure;
+}
