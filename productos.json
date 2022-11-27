@@ -1,23 +1,22 @@
 [
     {
-    "precio": 1000,
-    "id": 1,
-    "titulo": "Selva negra"
-    "thumbnailUrl": "https://st2.depositphotos.com/2951763/5970/i/450/depositphotos_59707031-stock-photo-black-forest-cake-decorated-with.jpg"
-    }
+        "precio": 1000,
+        "id": 1,
+        "titulo": "Selva negra",
+        "thumbnailUrl": "https://st2.depositphotos.com/2951763/5970/i/450/depositphotos_59707031-stock-photo-black-forest-cake-decorated-with.jpg"
+    },
 
     {
-    "precio": 500,
-    "id": 2,
-    "titulo": "Budín de limón"
-    "thumbnailUrl": "https://img-global.cpcdn.com/recipes/20d038f8b4634227/1200x630cq70/photo.jpg"
-    }
+        "precio": 500,
+        "id": 2,
+        "titulo": "Budín de limón",
+        "thumbnailUrl": "https://img-global.cpcdn.com/recipes/20d038f8b4634227/1200x630cq70/photo.jpg"
+    },
 
     {
-    "precio": 100,
-    "id": 3,
-    "titulo": "Galletitas de manteca"
-    "thumbnailUrl": "https://delipreneur.com/wp-content/uploads/2021/09/receta-de-galletitas-dulces-faciles-01.jpg"
+        "precio": 100,
+        "id": 3,
+        "titulo": "Galletitas de manteca",
+        "thumbnailUrl": "https://delipreneur.com/wp-content/uploads/2021/09/receta-de-galletitas-dulces-faciles-01.jpg"
     }
-    
 ]

@@ -1,15 +1,16 @@
 body{
-    background-image: url(./imagenes/istockphoto-666832316-170667a-transformed\ \(1\).jpeg);    
+    background-image: url(./imagenes/Diseño\ sin\ título\ \(1\).jpg);    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    text-align: center;
+    
 }
 
 
-
 .titulo{
-    color: black;
+    color: rgb(3, 3, 3);
     font-family: 'Merienda', cursive;
     font-size: 400%;
     text-align: center;
@@ -23,19 +24,28 @@ body{
     text-align: center;
 }
 
+.oracion{
+    color: black;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+
+}
 
 
-.boton{
+
+button{
     width: 250px;
     height: 50px;
     background-color: rgb(252, 237, 72);
     border-radius: .5em;
     cursor: pointer;
     transition: background-color 1s;
-    background-position: center center;
-
+    text-align: center center;
+    
+    
 }
 
 .boton:hover{
     background-color: azure;
 }
+
