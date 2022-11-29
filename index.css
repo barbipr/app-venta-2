@@ -40,7 +40,10 @@ button{
     border-radius: .5em;
     cursor: pointer;
     transition: background-color 1s;
-    text-align: center center;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
     
     
 }

@@ -26,40 +26,22 @@
 
     <div class="container">
 
-        <div class="card">
-            <img src="https://st2.depositphotos.com/2951763/5970/i/450/depositphotos_59707031-stock-photo-black-forest-cake-decorated-with.jpg"
-                alt="torta Selva Negra">
-            <h4 class="oracion">Torta selva negra</h4>
-            <p class="oracion">Precio</p>
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <h2 class="oracion">Carrito</h2>
+            <aside class="col-sm-4">
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                
 
-            <button href="#" class="boton">
-                Comprar
-            </button>
-        </div>
-
-
-
-
-
-        <div class="card">
-            <img src="https://img-global.cpcdn.com/recipes/20d038f8b4634227/1200x630cq70/photo.jpg"
-                alt="Budín de limón">
-            <h4 class="oracion">Budín de limón</h4>
-            <p class="oracion">Precio.</p>
-            <button href="#" class="boton">
-                Comprar
-            </button>
-        </div>
-
-        <div class="card">
-            <img src="https://delipreneur.com/wp-content/uploads/2021/09/receta-de-galletitas-dulces-faciles-01.jpg"
-                alt="Galletitas de manteca">
-            <h4 class="oracion">Galletitas de manteca</h4>
-            <p class="oracion">Precio</p>
-            <button href="#" class="boton">
-                Comprar
-            </button>
-        </div>
+        <!-- Precio total -->
+        <p class="oracion">Total: $ <span id="total"></span></p>
+        <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+    </aside>
+</div>
 
     </div>
 
