@@ -32,8 +32,7 @@ body{
 }
 
 
-
-button{
+.boton{
     width: 250px;
     height: 50px;
     background-color: rgb(252, 237, 72);
@@ -50,5 +49,17 @@ button{
 
 .boton:hover{
     background-color: azure;
+}
+
+footer{
+    position:fixed;
+    left:0px;
+    bottom:150px;
+    height:30px;
+    width:100%;
+ }
+
+.derechos {
+    text-align: center;
 }
 

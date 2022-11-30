@@ -8,7 +8,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-       
+    
+    
     
 }
 
@@ -34,7 +35,7 @@ body{
 .oracion{
     color: black;
     font-family: 'Merienda', cursive;
-    font-size: 20px;
+    font-size: 20px; 
 
 }
 
@@ -42,12 +43,9 @@ body{
     width: 400px;
     max-width: 1200px;
     height: 430px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center center;
     margin: auto;
-
-
 }
 
 .container .card{
@@ -67,7 +65,11 @@ body{
     width: 360px;
     height: 220px;
     
-}
+}   
+
+
+
+    
 
 button{
     width: 200px;
