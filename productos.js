@@ -33,7 +33,7 @@ function renderizarProductos() {
     baseDeDatos.forEach((info) => {
         // Estructura
         const miNodo = document.createElement('div');
-        miNodo.classList.add('card', 'col-sm-4');
+        miNodo.classList.add('card', 'col-sm-4', 'nodo');
         // Body
         const miNodoCardBody = document.createElement('div');
         miNodoCardBody.classList.add('card-body');
